@@ -1,0 +1,22 @@
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4rem;  
+}
+
+
+@media screen and (max-width:768px) {
+    .menu{
+        padding-left: 0%;
+        padding-right: 0.5rem;
+    }
+}
+@media screen and (max-width:480px) {
+    .menu{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

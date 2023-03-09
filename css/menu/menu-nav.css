@@ -1,0 +1,38 @@
+.menu__list, .menu__nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.menu__list__item, .menu__list__item__contato{
+    font-family: Raleway;
+    font-family: normal;
+    font-size: 1rem;
+    color: #464646;
+}
+
+@media screen and (min-width:768px){
+    .menu__list__item__contato{
+        display: none;
+        
+    }
+    .menu__list__item{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    .menu__list__item{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .menu__list__item__contato{
+        font-size: 0.9rem;
+    }
+}
+

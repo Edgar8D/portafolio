@@ -1,0 +1,19 @@
+.title__profile{
+    height: 368px;
+}
+
+@media screen and (max-width: 768px) {
+    .title__profile{
+        height: 146px;
+        margin-bottom: 2.5rem;
+        
+    }
+}
+
+@media screen and (max-width:480px) {
+    .title__profile{
+        height: 98px;
+        margin-bottom: 1rem;
+        
+    }
+}

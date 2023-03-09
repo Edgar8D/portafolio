@@ -1,0 +1,47 @@
+.experience__title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: #464646;
+}
+.experience__text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #464646;
+}
+
+@media screen and (max-width:768px) {
+    .experience__title{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #464646;
+    }
+    .experience__text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        color: #464646;
+    }
+}
+@media screen and (max-width:480px) {
+    .experience__title{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #464646;
+    }
+    .experience__text{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        color: #464646;
+    }
+}

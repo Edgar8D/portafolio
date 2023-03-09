@@ -1,0 +1,30 @@
+.experience__box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.experience__img{
+    width: 752px;
+}
+
+@media screen and (max-width:768px) {
+    .experience__box{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .experience__img{
+        width: 704px;
+    }
+}
+@media screen and (max-width:480px) {
+    .experience__box{
+        display: flex;
+        align-items: center;        
+        flex-direction: column;
+        
+    }
+    .experience__img{
+        width: 296px;
+    }
+}

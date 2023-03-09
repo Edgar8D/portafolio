@@ -1,0 +1,17 @@
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
+ }
+ 
+ @media screen and (max-width:480px) {
+    .title__div{
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+ }

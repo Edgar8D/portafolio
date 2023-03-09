@@ -1,0 +1,21 @@
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    
+}
+.formcontato__img{
+    width: 464px;
+    height: 500px;
+}
+.formcontato--esquerda{
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__img{
+        display: none;
+    }
+}

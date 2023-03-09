@@ -1,0 +1,33 @@
+.experiencia__botao--repo{
+    width: 116px;
+    height: 51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2a7ae4;
+    border-color: #2a7ae4;
+}
+
+.experience__botao--demo{
+    background: #2a7ae4;
+    width: 105px;
+    height: 51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width:480px) {
+    .experiencia__botao--repo{
+        width: 108px;
+        height: 40px;
+    }
+    .experience__botao--demo{
+        width: 96px;
+        height: 40px;
+    }
+}

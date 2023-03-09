@@ -1,0 +1,66 @@
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.formcontato__input{
+    margin: 1rem;
+    border-radius: 4px;
+    width: 656px;
+    height: 56px;
+    color: black;
+    border-color: #615b5bf5;
+    
+}
+.formcontato__textarea{
+    margin: 1rem;
+    border-radius: 4px;
+    width: 656px;
+    height: 133px;
+    color: black;
+    border-color: #615b5bf5;
+}
+.formcontato__botao{
+
+    background: #2a7ae4;
+    width: 144px;
+    height: 51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__input{
+        width: 704px;
+        height: 56px;
+    }
+    .formcontato__textarea{
+        width: 704px;
+        height: 133px;
+    }
+    .formcontato__botao{
+        width: 133px;
+        height: 40px;
+        font-size: 0.875;
+    }
+}
+@media screen and (max-width:480px) {
+    .formcontato__input{
+        width: 296px;
+        height: 133px;
+    }
+    .formcontato__textarea{
+        width: 296px;
+        height: 133px;
+    }
+    .formcontato__botao{
+        width: 133px;
+        height: 40px;
+        font-size: 0.875;
+    }
+}

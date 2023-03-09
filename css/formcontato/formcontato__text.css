@@ -1,0 +1,28 @@
+.formcontato__title{
+    margin: 1rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+.formcontato__subtext{
+    margin: 0 1rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .formcontato__title{
+        font-size: 1.375rem;
+        padding-left: 1rem;
+    }
+    .formcontato__subtext{
+        padding-left: 1rem;
+    }
+    .formcontato__text{
+        padding-left: 1rem;
+    }
+}

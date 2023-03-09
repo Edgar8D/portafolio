@@ -1,0 +1,29 @@
+.menu__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.menu__title{
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 1rem;
+    color: #464646;
+    
+}
+
+@media screen and (max-width:768px) {
+    .menu__header{
+        display: flex;
+        flex-direction: row;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .menu__title{
+        font-size: 0.8rem;
+    }
+}
